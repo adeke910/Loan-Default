@@ -74,12 +74,31 @@ First, I tested the performance on the "raw" data, by using them in the original
   > * **LGBM Model**: The LGBM model correctly predicted 88.89% of the loans to be Defaulted or Not Defaulted. Auc-Roc score = 92.31%
   > * **CatBoost Model**: The CatBoost Classifier model correctly predicted 94.45% of the loans to be Defaulted or Not Defaulted. Auc-Roc score = 96.15%
   
-### Stacking some of the Classifier models to achieve better performance
+#### Stacking some of the Classifier models to achieve better performance
   
-  
-  
-  
-  
-  
+The Stacked Model correctly predicted 100% of the loans to be Defaulted or Not Defaulted.
+
+72.22% correctly predicted loans to Not be Defaulted.
+27.78% correctly predicted loans to be Defaulted.
+ 
+0.00% of the loans were incorrectly predicted to be Defaulted or Not Defaulted.
+ 
+Stacking Model Accuracy Score on Training Data is: 100.0
+ 
+Stacking Model Accuracy Score on Testing Data is: 100.0
+ 
+Stacking Model AUC-ROC Score on Training Data is: 100.0
+ 
+Stacking Model AUC-ROC Score on Testing Data is: 100.0
+ 
+Stacking Model Precision Score on Training Data is: 100.0
+ 
+Stacking Model Precision Score on Testing Data is: 100.0
+
+ 
+ ## Conclusion
+ Looking at scores and numbers alone won't give us a correct answer on how to approach problems we face in our businesses. Every model has its pros and cons, and it is necessary to understand what are the goals of the business, what are the main problems we want to avoid and how we want to develop our relationship with customers. This is why it is important to evaluate the possible impacts of a model that produces a high number of false positives or false negatives and what would be the best approach to work with it.
+ 
+ The Logistic Regression Model and the Stacked Model seemed the best fit Model for this project.
 </div>
 
